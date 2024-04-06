@@ -40,3 +40,11 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+app.patch('/tasks/:id', async (req, res) => {
+    const { id } = req.params;
+    const updatedTask = await Task.findByIdAndUpdate(id, { isCompleted: true }, { new: true })
+
+    res.json(updatedTask);
+});
+

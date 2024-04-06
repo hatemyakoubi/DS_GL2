@@ -1,0 +1,25 @@
+nvm --version
+      nvm install 20
+      node --version
+      vagrant ssh-config
+      exit
+      cd TDD
+      npm init
+      npm i mocha
+      mocha
+     npm i -g mocha
+     mocha
+     mkdir test
+     cd test
+  mocha
+cd TDD
+cd ..
+ mocha
+docker --version
+   clear
+  sudo loadkey fr
+  git clone https://github.com/hatemyakoubi/DS_GL2.git
+
+  git add .
+   git commit -m "ds"
+   git push 
